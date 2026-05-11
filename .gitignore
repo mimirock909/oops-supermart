@@ -1,69 +1,25 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Compiled object files
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-*.so.*
-
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
-*.app
 
-# Build directories
-build/
-Build/
-build-*/
+# Dev-C++ project files (optional to keep .dev, but exclude build artifacts)
+*.layout
+Makefile.win
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# Compiled precompiled headers (Dev-C++ generates these)
+*.gch
+*.pch
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+# Debug files
+*.ilk
+*.pdb
 
-# vcpkg
-vcpkg_installed/
+# Windows thumbnail cache
+Thumbs.db
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# VS Code settings if you ever switch
+.vscode/
